@@ -135,3 +135,23 @@ tensorboard/
 # Temporary files
 *.tmp
 *.temp
+
+
+# --- Frontend (React) ---
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env
+Frontend/.DS_Store
+
+# --- Backend (Flask/Python) ---
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# --- OS/IDE files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
